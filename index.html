@@ -289,6 +289,17 @@ nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,0.95);backdrop-fi
 .nav-links a.nav-cta{background:var(--accent);color:#000;display:inline-flex;align-items:center;justify-content:center;gap:6px;margin:8px 16px;padding:10px 20px;border-radius:6px;border:none;font-weight:700;font-size:13px}
 .nav-links a.nav-cta:hover{background:#00ff88}
 </style>
+
+<style id="megabyte-notebooks-estilos">
+#megabyte-notebooks-destacado{padding:64px 24px;background:#101810;color:#f0f0f0;border-top:1px solid #294332;border-bottom:1px solid #294332;font-family:Inter,Arial,sans-serif}
+#megabyte-notebooks-destacado .mb-wrap{max-width:1120px;margin:auto;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+#megabyte-notebooks-destacado .mb-label{color:#00e676;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:700}
+#megabyte-notebooks-destacado h2{font-size:clamp(27px,4vw,43px);line-height:1.15;margin:12px 0 18px}
+#megabyte-notebooks-destacado p{color:#b8c2ba;font-size:16px;max-width:660px;line-height:1.65}
+#megabyte-notebooks-destacado .mb-link{display:inline-block;background:#00e676;color:#07150b;padding:16px 24px;text-decoration:none;border-radius:8px;font-weight:800;white-space:nowrap}
+#megabyte-notebooks-destacado .mb-link:hover{background:#65ffae}
+@media(max-width:700px){#megabyte-notebooks-destacado .mb-wrap{grid-template-columns:1fr}#megabyte-notebooks-destacado .mb-link{text-align:center;white-space:normal}}
+</style>
 </head>
 <body>
 
@@ -556,5 +567,16 @@ function toggle(el){
   a.classList.toggle('open');
 }
 </script>
+
+<section id="megabyte-notebooks-destacado" aria-labelledby="mb-notebooks-titulo">
+  <div class="mb-wrap">
+    <div>
+      <div class="mb-label">Servicio técnico especializado · Tacuarembó</div>
+      <h2 id="mb-notebooks-titulo">Reparación de notebooks y laptops</h2>
+      <p>¿Tu notebook no enciende, no carga o tiene problemas de pantalla, bisagras o rendimiento? En MegaByte realizamos diagnóstico y reparación electrónica de placas madre a nivel de componentes.</p>
+    </div>
+    <a class="mb-link" href="/reparacion-notebooks/">Conocer el servicio →</a>
+  </div>
+</section>
 </body>
 </html>

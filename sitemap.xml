@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://megabyte.uy/</loc>
-    <lastmod>2026-05-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-</urlset>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:urlset xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <ns0:url>
+    <ns0:loc>https://megabyte.uy/</ns0:loc>
+    <ns0:lastmod>2026-05-31</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>1.0</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://megabyte.uy/reparacion-notebooks/</ns0:loc>
+  </ns0:url>
+</ns0:urlset>
