@@ -300,6 +300,16 @@ nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,0.95);backdrop-fi
 #megabyte-notebooks-destacado .mb-link:hover{background:#65ffae}
 @media(max-width:700px){#megabyte-notebooks-destacado .mb-wrap{grid-template-columns:1fr}#megabyte-notebooks-destacado .mb-link{text-align:center;white-space:normal}}
 </style>
+
+<style id="megabyte-dos-servicios-css">
+.services-grid.mb-dos-servicios{grid-template-columns:repeat(2,minmax(0,1fr))}
+.mb-dos-servicios .service-card{position:relative;cursor:pointer}
+.mb-dos-servicios .service-card:focus-within{outline:2px solid #00e676;outline-offset:3px}
+.mb-dos-servicios .mb-servicio-enlace{display:inline-flex;gap:8px;align-items:center;margin-top:22px;color:#00e676;text-decoration:none;font-size:14px;font-weight:700}
+.mb-dos-servicios .mb-servicio-enlace::after{content:"";position:absolute;inset:0}
+.mb-dos-servicios .service-card:hover .mb-servicio-enlace{text-decoration:underline}
+@media(max-width:768px){.services-grid.mb-dos-servicios{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 
@@ -401,8 +411,7 @@ nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,0.95);backdrop-fi
   <div class="section">
     <div class="label">Especialidades</div>
     <div class="title">Lo que reparamos</div>
-    <div class="services-grid">
-      <div class="service-card">
+    <div class="services-grid mb-dos-servicios"><div class="service-card">
         <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
         <h3>Celulares</h3>
         <p>Pantallas rotas, baterías, problemas de carga, cámara, software, agua. Todo tipo de fallas para todas las marcas del mercado.</p>
@@ -413,8 +422,9 @@ nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,0.95);backdrop-fi
           <span class="svc-tag">Software</span>
           <span class="svc-tag">Cámara</span>
         </div>
-      </div>
-      <div class="service-card">
+      
+<a class="mb-servicio-enlace" href="/reparacion-celulares/" aria-label="Ver reparaciones de celulares">Ver reparaciones <span aria-hidden="true">→</span></a>
+</div><div class="service-card">
         <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="18" x2="12" y2="21"/></svg></div>
         <h3>Notebooks</h3>
         <p>No enciende, pantalla dañada, teclado, bisagras, virus, rendimiento lento, recuperación de datos. Diagnóstico sin costo.</p>
@@ -425,18 +435,9 @@ nav{position:sticky;top:0;z-index:100;background:rgba(13,13,13,0.95);backdrop-fi
           <span class="svc-tag">Asus</span>
           <span class="svc-tag">Acer</span>
         </div>
-      </div>
-      <div class="service-card">
-        <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07M8.46 8.46a5 5 0 0 0 0 7.07"/></svg></div>
-        <h3>Microelectrónica</h3>
-        <p>Soldadura SMD, reballing de chips, reemplazo de componentes, reparación de placa madre a nivel de componente.</p>
-        <div class="svc-tags">
-          <span class="svc-tag">Soldadura SMD</span>
-          <span class="svc-tag">Reballing</span>
-          <span class="svc-tag">Placa madre</span>
-        </div>
-      </div>
-    </div>
+      
+<a class="mb-servicio-enlace" href="/reparacion-notebooks/" aria-label="Ver reparaciones de notebooks y laptops">Ver reparaciones <span aria-hidden="true">→</span></a>
+</div></div>
   </div>
 </div>
 
